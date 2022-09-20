@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins",sans-serif;
+    background: #151B28;
+}
+
+.wrapper{
+    width: 100%;   
+}
+
+/* Buttons */
+
+.bnt{
+    width: 135px;
+    height: 48px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px; 
+    text-decoration: none;
+}
+
+.bnt.top{
+    background: #008FFF;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440;
+    top: 35px;
+    z-index: 100;
+}
+
+nav .logo{
+    font-family: "Poppins";
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-left: 190px;
+    margin-top: 24px;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding-right: 190px
+;
+}
+
+nav ul li a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #828FAB;
+    text-decoration: none;
+}
+
+.container{
+    position: absolute;
+    max-width: 900px;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color:#fff ;
+    width: 520px;
+    height: 676px;
+    left: 650px;
+    top: 175px;
+
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 24px;
+    padding-bottom: 35px;
+    padding-left: 180px;
+    padding-right: 215px;
+}
+
+.head{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.details{
+    padding-left: 30px;
+}
+
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 450px;
+    padding-bottom: 25px;
+}
+
+
+.fields input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #151B28;
+    border-radius: 4px
+}
+
+.first-form label{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.fields .input select{
+    width: 400px;
+    height: 40px;
+    left: 531px;
+    top: 310px;
+    background: #FFFFFF;
+    border: 1px solid #151B28;
+    border-radius: 4px
+}
+
+.birth{
+    display: flex;
+    width: 410px;
+}
+
+.birth select{
+    margin-right: 11px;
+    width: 126px;
+    height: 40px;
+    left: 531px;
+    top: 535px;
+    margin-top: 10px;
+}
+
+.birth input{
+    margin-right: 11px;
+    width: 126px;
+    height: 40px;
+    left: 531px;
+}
+
+.btn.bot{ 
+    border-radius: 4px;
+    width: 64px;
+    height: 36px;
+    padding-top: 4px;
+    background-color:  #008FFF;
+    margin-left: 335px;
+    margin-top: 30px;
+    margin-bottom:  55px;
+}
+
+.btn{ 
+    width: 30px;
+    height: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    background: none;
+    
+}
+
+button{
+    background: none;
+    border: none;
+    color: #fff;
+}

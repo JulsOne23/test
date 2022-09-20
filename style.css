@@ -76,7 +76,7 @@ nav ul li a{
     justify-content: end;
     height: 100%;
     width: 100%;
-    padding: 60px 80px 60px 0px;
+    padding: 60px 80px 60px 80px;
 }
 
 .container{
